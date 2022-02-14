@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.search{
+  position: absolute;
+  border: 2px solid black;
+  padding:20px;
+  width: 50%;
+  text-align: center;
+  top:15%;
+  left:22%;
+  background-color: lightgray;
+}
+.Assigned{
+  position: absolute;
+  border: 2px solid black;
+  width:20%;
+  height: 50%;
+  top:30%;
+  margin: 5px;
+  background-color: lightpink;
+  text-align: left;
+}
+.Progress{
+  position: absolute;
+  border: 2px solid black;
+  width:19%;
+  height: 50%;
+  top:30%;
+  left:20%;
+  margin: 4px;
+  background-color: powderblue;
+  text-align: left;
+}
+.Blocked{
+  position: absolute;
+  border: 2px solid black;
+  width:19%;
+  height: 50%;
+  top:30%;
+  left:39%;
+  margin: 4px;
+  background-color: lightyellow;
+  text-align: left;
+}
+.Testing{
+  position: absolute;
+  border: 2px solid black;
+  width:19%;
+  height: 50%;
+  top:30%;
+  left:58%;
+  margin: 4px;
+  background-color: lightskyblue;
+  text-align: left;
+}
+.Complete{
+  position: absolute;
+  border: 2px solid black;
+  width:19%;
+  height: 50%;
+  top:30%;
+  left:77%;
+  margin: 4px;
+  background-color: lightgreen;
+  text-align: left;
+}
+.heading{
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.myList{
+  text-align: left;
+}
+.colorGreen{
+  background-color: green;
+}
+#compBtn{
+  position: absolute;
+  right:58px;
+}
+#closeBtn{
+  position: absolute;
+  right:2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
